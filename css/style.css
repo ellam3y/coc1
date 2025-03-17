@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+.hero {
+  height: 90vh;
+  background: url("../imgs/home.webp") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.btn {
+  transition: all 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
